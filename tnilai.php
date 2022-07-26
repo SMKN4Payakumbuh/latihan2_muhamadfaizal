@@ -5,7 +5,7 @@ $uts = (int)readline("nilai uts anda : ");
 $uas = (int)readline("nilai uas anda : ");
 
 $total = ($uts+$uas)/2;
-if ($total>90) {
+if ($total>=90) {
     echo "selamat ". $n . "anda dapat nilai sempurna dengan nilai:" .$total;
 
 }elseif ($total>=80){
